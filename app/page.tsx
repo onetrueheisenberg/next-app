@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "./components/ProductCard/ProductCard";
 import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+import { authOptions } from "./api/auth/authOptions";
 import coffee from "../public/images/coffee.jpeg";
 import tea from "../public/images/Tea.jpg";
 
